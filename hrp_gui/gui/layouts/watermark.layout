@@ -1,0 +1,44 @@
+FrameWidgetClass rootFrame {
+ color 1 1 1 0.3922
+ position 30 30
+ size 200 51.7903
+ halign right_ref
+ valign top_ref
+ hexactpos 1
+ vexactpos 1
+ hexactsize 1
+ vexactsize 1
+ {
+  ImageWidgetClass logo {
+   visible 1
+   ignorepointer 1
+   color 1 1 1 0.102
+   position 0 0
+   size 1 0.75
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   imageTexture "{90FC8130808C4072}HumanityRP/hrp_gui/gui/pictures/logo.edds"
+   mode additive
+   "src alpha" 1
+   stretch 1
+  }
+  TextWidgetClass side {
+   ignorepointer 1
+   color 1 1 1 0.3922
+   position -1.22155 -1.6288
+   size 1 17.58
+   halign right_ref
+   valign bottom_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "www.humanityrp.pl"
+   font "gui/fonts/etelkatextpro"
+   "text halign" right
+   "text valign" center
+  }
+ }
+}

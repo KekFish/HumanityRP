@@ -1,0 +1,272 @@
+WindowWidgetClass WindowWidget {
+ ignorepointer 1
+ color 0.1569 0.6235 0.2745 1
+ position 0 0
+ size 1 1
+ halign center_ref
+ valign center_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ priority 1000
+ style Default
+ font "gui/fonts/sdf_MetronBook24"
+ {
+  PanelWidgetClass container {
+   visible 1
+   ignorepointer 1
+   color 0.0588 0.0588 0.0588 1
+   position 0.00012 0.00794
+   size 1 1
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 0
+   style DayZDefaultPanel
+   {
+    PanelWidgetClass Panel {
+     clipchildren 1
+     inheritalpha 0
+     ignorepointer 1
+     color 0.1176 0.1176 0.1176 0.9804
+     position 75 0
+     size 0.25 234.56
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     priority 1
+     style blank
+     {
+      WrapSpacerWidgetClass buttonWrap {
+       clipchildren 1
+       inheritalpha 0
+       ignorepointer 1
+       keepsafezone 0
+       position 0 58
+       size 1 171
+       halign center_ref
+       hexactpos 0
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       scaled 1
+       "no focus" 0
+       content_halign center
+       content_valign center
+       {
+        ButtonWidgetClass respawn_button_custom {
+         visible 1
+         ignorepointer 0
+         color 0 0 0 0.9373
+         size 1 52
+         halign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         userID 101
+         style hrpButton4
+         text_offset 35 0
+         text_proportion 0.75
+         text_halign left
+         font "gui/fonts/etelkatextpro"
+         {
+          TextWidgetClass bCancelText1 {
+           ignorepointer 1
+           size 0.95 1
+           halign right_ref
+           valign center_ref
+           hexactpos 1
+           vexactpos 1
+           hexactsize 0
+           vexactsize 0
+           text "#hrp_respawn_custom"
+           font "gui/fonts/etelkatextpro"
+           text_proportion 0.75
+           "text valign" center
+          }
+         }
+        }
+        ButtonWidgetClass respawn_button_random {
+         visible 1
+         ignorepointer 0
+         color 0 0 0 0.9373
+         size 1 52
+         halign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         userID 102
+         style hrpButton2
+         text_offset 35 0
+         text_proportion 0.75
+         text_halign left
+         font "gui/fonts/etelkatextpro"
+         {
+          TextWidgetClass rBtnRText {
+           ignorepointer 1
+           size 0.95 1
+           halign right_ref
+           valign center_ref
+           hexactpos 1
+           vexactpos 1
+           hexactsize 0
+           vexactsize 0
+           text "#hrp_respawn_random"
+           font "gui/fonts/etelkatextpro"
+           text_proportion 0.75
+           "text valign" center
+          }
+         }
+        }
+        ButtonWidgetClass bCancel {
+         visible 1
+         color 0.502 0 0 1
+         position 0 0
+         size 1 50
+         halign center_ref
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 1
+         userID 2
+         style hrpButton3
+         text_offset 35 0
+         text_proportion 0.5
+         text_halign left
+         font "gui/fonts/sdf_MetronBook24"
+         {
+          TextWidgetClass bCancelText {
+           ignorepointer 1
+           size 0.95 1
+           halign right_ref
+           valign center_ref
+           hexactpos 1
+           vexactpos 1
+           hexactsize 0
+           vexactsize 0
+           text "#menu_cancel"
+           font "gui/fonts/etelkatextpro"
+           text_proportion 0.75
+           "text valign" center
+          }
+         }
+        }
+       }
+      }
+      TextWidgetClass Caption {
+       clipchildren 0
+       ignorepointer 1
+       size 0.95 52
+       halign right_ref
+       hexactpos 0
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       style Normal
+       text "#main_menu_respawn"
+       font "gui/fonts/sdf_MetronBook24"
+       "text color" 1 1 1 1
+       "italic text" 0
+       "bold text" 1
+       "exact text" 0
+       "text valign" center
+      }
+     }
+    }
+    GridSpacerWidgetClass menu_details_tooltip {
+     visible 0
+     clipchildren 1
+     ignorepointer 1
+     color 0.1961 0.1961 0.1961 0.5882
+     position 0 0
+     size 350 603.55298
+     halign center_ref
+     valign center_ref
+     hexactpos 1
+     vexactpos 0
+     hexactsize 1
+     vexactsize 1
+     priority 10
+     style hrpGS3
+     "no focus" 1
+     Padding 0
+     Margin 0
+     "Size To Content V" 1
+     Columns 1
+     Rows 2
+     {
+      PanelWidgetClass menu_details_tooltip_header {
+       ignorepointer 1
+       color 0 0 0 1
+       position 18.3519 11.4079
+       size 0.0276 32
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       style hrpPanelB4
+       {
+        TextWidgetClass menu_details_label {
+         clipchildren 0
+         ignorepointer 1
+         position 0 0
+         size 0.95 0.5
+         halign center_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 0
+         text "This is Sparta"
+         font "gui/fonts/etelkatextpro"
+         text_proportion 0.9
+         "text halign" center
+        }
+       }
+      }
+      WrapSpacerWidgetClass menu_details_tooltip_body {
+       ignorepointer 1
+       position 0 0
+       size 0.9 0.571
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       Padding 0
+       Margin 5
+       "Size To Content H" 1
+       "Size To Content V" 1
+       content_halign center
+       content_valign center
+       {
+        RichTextWidgetClass menu_details_tooltip_content {
+         clipchildren 0
+         ignorepointer 1
+         position 0 -8.3728
+         size 0.85 40.9964
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "this is details testtestt esttesttes ttesttesttest testtesttestt esttesttesttestt esttest testtesttestte sttesttest testtes ttesttest testtesttest testtes ttest"
+         font "gui/fonts/etelkatextpro"
+         "exact text" 1
+         "exact text size" 16
+         "size to text h" 0
+         "size to text v" 1
+         wrap 1
+         "condense whitespace" 1
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,922 @@
+<WidgetStyles>
+    <Widget Name="ButtonWidget">
+        <Style Name="hrpButton1" Font="gui/fonts/amorserifpro-bold" ImageSet="hrpGUI" Color="0">
+            <State Name="Disabled">
+                <Item Name="Bottom" Image="Button1Bottom" />
+                <Item Name="Center" Image="Button1Center" />
+                <Item Name="Left" Image="Button1Left" />
+                <Item Name="LeftBottom" Image="Button1LeftBottom" />
+                <Item Name="LeftTop" Image="Button1LeftTop" />
+                <Item Name="Right" Image="Button1Right" />
+                <Item Name="RightBottom" Image="Button1RightBottom" />
+                <Item Name="RightTop" Image="Button1RightTop" />
+                <Item Name="Top" Image="Button1Top" />
+            </State>
+            <State Name="Focus">
+                <Item Name="Bottom" Image="Button1Bottom" />
+                <Item Name="Center" Image="Button1Center" />
+                <Item Name="Left" Image="Button1Left" />
+                <Item Name="LeftBottom" Image="Button1LeftBottom" />
+                <Item Name="LeftTop" Image="Button1LeftTop" />
+                <Item Name="Right" Image="Button1Right" />
+                <Item Name="RightBottom" Image="Button1RightBottom" />
+                <Item Name="RightTop" Image="Button1RightTop" />
+                <Item Name="Top" Image="Button1Top" />
+            </State>
+            <State Name="Highlight">
+                <Item Name="Bottom" Image="Button1Bottom" />
+                <Item Name="Center" Image="Button1Center" />
+                <Item Name="Left" Image="Button1Left" />
+                <Item Name="LeftBottom" Image="Button1LeftBottom" />
+                <Item Name="LeftTop" Image="Button1LeftTop" />
+                <Item Name="Right" Image="Button1Right" />
+                <Item Name="RightBottom" Image="Button1RightBottom" />
+                <Item Name="RightTop" Image="Button1RightTop" />
+                <Item Name="Top" Image="Button1Top" />
+            </State>
+            <State Name="Normal">
+                <Item Name="Bottom" Image="Button1Bottom" />
+                <Item Name="Center" Image="Button1Center" />
+                <Item Name="Left" Image="Button1Left" />
+                <Item Name="LeftBottom" Image="Button1LeftBottom" />
+                <Item Name="LeftTop" Image="Button1LeftTop" />
+                <Item Name="Right" Image="Button1Right" />
+                <Item Name="RightBottom" Image="Button1RightBottom" />
+                <Item Name="RightTop" Image="Button1RightTop" />
+                <Item Name="Top" Image="Button1Top" />
+            </State>
+            <State Name="Pushed">
+                <Item Name="Bottom" Image="Button1Bottom" />
+                <Item Name="Center" Image="Button1Center" />
+                <Item Name="Left" Image="Button1Left" />
+                <Item Name="LeftBottom" Image="Button1LeftBottom" />
+                <Item Name="LeftTop" Image="Button1LeftTop" />
+                <Item Name="Right" Image="Button1Right" />
+                <Item Name="RightBottom" Image="Button1RightBottom" />
+                <Item Name="RightTop" Image="Button1RightTop" />
+                <Item Name="Top" Image="Button1Top" />
+            </State>
+        </Style>
+        <Style Name="hrpButton2" Font="gui/fonts/amorserifpro-bold" ImageSet="hrpGUI" Color="0">
+            <State Name="Disabled">
+                <Item Name="Bottom" Image="Button2Bottom" />
+                <Item Name="Center" Image="Button2Center" />
+                <Item Name="Left" Image="Button2Left" />
+                <Item Name="LeftBottom" Image="Button2LeftBottom" />
+                <Item Name="LeftTop" Image="Button2LeftTop" />
+                <Item Name="Right" Image="Button2Right" />
+                <Item Name="RightBottom" Image="Button2RightBottom" />
+                <Item Name="RightTop" Image="Button2RightTop" />
+                <Item Name="Top" Image="Button2Top" />
+            </State>
+            <State Name="Focus">
+                <Item Name="Bottom" Image="Button2Bottom" />
+                <Item Name="Center" Image="Button2Center" />
+                <Item Name="Left" Image="Button2Left" />
+                <Item Name="LeftBottom" Image="Button2LeftBottom" />
+                <Item Name="LeftTop" Image="Button2LeftTop" />
+                <Item Name="Right" Image="Button2Right" />
+                <Item Name="RightBottom" Image="Button2RightBottom" />
+                <Item Name="RightTop" Image="Button2RightTop" />
+                <Item Name="Top" Image="Button2Top" />
+            </State>
+            <State Name="Highlight">
+                <Item Name="Bottom" Image="Button2Bottom" />
+                <Item Name="Center" Image="Button2Center" />
+                <Item Name="Left" Image="Button2Left" />
+                <Item Name="LeftBottom" Image="Button2LeftBottom" />
+                <Item Name="LeftTop" Image="Button2LeftTop" />
+                <Item Name="Right" Image="Button2Right" />
+                <Item Name="RightBottom" Image="Button2RightBottom" />
+                <Item Name="RightTop" Image="Button2RightTop" />
+                <Item Name="Top" Image="Button2Top" />
+            </State>
+            <State Name="Normal">
+                <Item Name="Bottom" Image="Button2Bottom" />
+                <Item Name="Center" Image="Button2Center" />
+                <Item Name="Left" Image="Button2Left" />
+                <Item Name="LeftBottom" Image="Button2LeftBottom" />
+                <Item Name="LeftTop" Image="Button2LeftTop" />
+                <Item Name="Right" Image="Button2Right" />
+                <Item Name="RightBottom" Image="Button2RightBottom" />
+                <Item Name="RightTop" Image="Button2RightTop" />
+                <Item Name="Top" Image="Button2Top" />
+            </State>
+            <State Name="Pushed">
+                <Item Name="Bottom" Image="Button2Bottom" />
+                <Item Name="Center" Image="Button2Center" />
+                <Item Name="Left" Image="Button2Left" />
+                <Item Name="LeftBottom" Image="Button2LeftBottom" />
+                <Item Name="LeftTop" Image="Button2LeftTop" />
+                <Item Name="Right" Image="Button2Right" />
+                <Item Name="RightBottom" Image="Button2RightBottom" />
+                <Item Name="RightTop" Image="Button2RightTop" />
+                <Item Name="Top" Image="Button2Top" />
+            </State>
+        </Style>
+        <Style Name="hrpButton3" Font="gui/fonts/amorserifpro-bold" ImageSet="hrpGUI" Color="0">
+            <State Name="Disabled">
+                <Item Name="Bottom" Image="Button3Bottom" />
+                <Item Name="Center" Image="Button3Center" />
+                <Item Name="Left" Image="Button3Left" />
+                <Item Name="LeftBottom" Image="Button3LeftBottom" />
+                <Item Name="LeftTop" Image="Button3LeftTop" />
+                <Item Name="Right" Image="Button3Right" />
+                <Item Name="RightBottom" Image="Button3RightBottom" />
+                <Item Name="RightTop" Image="Button3RightTop" />
+                <Item Name="Top" Image="Button3Top" />
+            </State>
+            <State Name="Focus">
+                <Item Name="Bottom" Image="Button3Bottom" />
+                <Item Name="Center" Image="Button3Center" />
+                <Item Name="Left" Image="Button3Left" />
+                <Item Name="LeftBottom" Image="Button3LeftBottom" />
+                <Item Name="LeftTop" Image="Button3LeftTop" />
+                <Item Name="Right" Image="Button3Right" />
+                <Item Name="RightBottom" Image="Button3RightBottom" />
+                <Item Name="RightTop" Image="Button3RightTop" />
+                <Item Name="Top" Image="Button3Top" />
+            </State>
+            <State Name="Highlight">
+                <Item Name="Bottom" Image="Button3Bottom" />
+                <Item Name="Center" Image="Button3Center" />
+                <Item Name="Left" Image="Button3Left" />
+                <Item Name="LeftBottom" Image="Button3LeftBottom" />
+                <Item Name="LeftTop" Image="Button3LeftTop" />
+                <Item Name="Right" Image="Button3Right" />
+                <Item Name="RightBottom" Image="Button3RightBottom" />
+                <Item Name="RightTop" Image="Button3RightTop" />
+                <Item Name="Top" Image="Button3Top" />
+            </State>
+            <State Name="Normal">
+                <Item Name="Bottom" Image="Button3Bottom" />
+                <Item Name="Center" Image="Button3Center" />
+                <Item Name="Left" Image="Button3Left" />
+                <Item Name="LeftBottom" Image="Button3LeftBottom" />
+                <Item Name="LeftTop" Image="Button3LeftTop" />
+                <Item Name="Right" Image="Button3Right" />
+                <Item Name="RightBottom" Image="Button3RightBottom" />
+                <Item Name="RightTop" Image="Button3RightTop" />
+                <Item Name="Top" Image="Button3Top" />
+            </State>
+            <State Name="Pushed">
+                <Item Name="Bottom" Image="Button3Bottom" />
+                <Item Name="Center" Image="Button3Center" />
+                <Item Name="Left" Image="Button3Left" />
+                <Item Name="LeftBottom" Image="Button3LeftBottom" />
+                <Item Name="LeftTop" Image="Button3LeftTop" />
+                <Item Name="Right" Image="Button3Right" />
+                <Item Name="RightBottom" Image="Button3RightBottom" />
+                <Item Name="RightTop" Image="Button3RightTop" />
+                <Item Name="Top" Image="Button3Top" />
+            </State>
+        </Style>
+        <Style Name="hrpButton4" Font="gui/fonts/amorserifpro-bold" ImageSet="hrpGUI" Color="0">
+            <State Name="Disabled">
+                <Item Name="Bottom" Image="Button4Bottom" />
+                <Item Name="Center" Image="Button4Center" />
+                <Item Name="Left" Image="Button4Left" />
+                <Item Name="LeftBottom" Image="Button4LeftBottom" />
+                <Item Name="LeftTop" Image="Button4LeftTop" />
+                <Item Name="Right" Image="Button4Right" />
+                <Item Name="RightBottom" Image="Button4RightBottom" />
+                <Item Name="RightTop" Image="Button4RightTop" />
+                <Item Name="Top" Image="Button4Top" />
+            </State>
+            <State Name="Focus">
+                <Item Name="Bottom" Image="Button4Bottom" />
+                <Item Name="Center" Image="Button4Center" />
+                <Item Name="Left" Image="Button4Left" />
+                <Item Name="LeftBottom" Image="Button4LeftBottom" />
+                <Item Name="LeftTop" Image="Button4LeftTop" />
+                <Item Name="Right" Image="Button4Right" />
+                <Item Name="RightBottom" Image="Button4RightBottom" />
+                <Item Name="RightTop" Image="Button4RightTop" />
+                <Item Name="Top" Image="Button4Top" />
+            </State>
+            <State Name="Highlight">
+                <Item Name="Bottom" Image="Button4Bottom" />
+                <Item Name="Center" Image="Button4Center" />
+                <Item Name="Left" Image="Button4Left" />
+                <Item Name="LeftBottom" Image="Button4LeftBottom" />
+                <Item Name="LeftTop" Image="Button4LeftTop" />
+                <Item Name="Right" Image="Button4Right" />
+                <Item Name="RightBottom" Image="Button4RightBottom" />
+                <Item Name="RightTop" Image="Button4RightTop" />
+                <Item Name="Top" Image="Button4Top" />
+            </State>
+            <State Name="Normal">
+                <Item Name="Bottom" Image="Button4Bottom" />
+                <Item Name="Center" Image="Button4Center" />
+                <Item Name="Left" Image="Button4Left" />
+                <Item Name="LeftBottom" Image="Button4LeftBottom" />
+                <Item Name="LeftTop" Image="Button4LeftTop" />
+                <Item Name="Right" Image="Button4Right" />
+                <Item Name="RightBottom" Image="Button4RightBottom" />
+                <Item Name="RightTop" Image="Button4RightTop" />
+                <Item Name="Top" Image="Button4Top" />
+            </State>
+            <State Name="Pushed">
+                <Item Name="Bottom" Image="Button4Bottom" />
+                <Item Name="Center" Image="Button4Center" />
+                <Item Name="Left" Image="Button4Left" />
+                <Item Name="LeftBottom" Image="Button4LeftBottom" />
+                <Item Name="LeftTop" Image="Button4LeftTop" />
+                <Item Name="Right" Image="Button4Right" />
+                <Item Name="RightBottom" Image="Button4RightBottom" />
+                <Item Name="RightTop" Image="Button4RightTop" />
+                <Item Name="Top" Image="Button4Top" />
+            </State>
+        </Style>
+        <Style Name="hrpDiscordButton" Font="gui/fonts/amorserifpro-bold" ImageSet="hrpGUI" Color="0">
+            <State Name="Disabled">
+                <Item Name="Bottom" Image="" />
+                <Item Name="Center" Image="iconDiscord" />
+                <Item Name="Left" Image="" />
+                <Item Name="LeftBottom" Image="" />
+                <Item Name="LeftTop" Image="" />
+                <Item Name="Right" Image="" />
+                <Item Name="RightBottom" Image="" />
+                <Item Name="RightTop" Image="" />
+                <Item Name="Top" Image="" />
+            </State>
+            <State Name="Focus">
+                <Item Name="Bottom" Image="" />
+                <Item Name="Center" Image="iconDiscord" />
+                <Item Name="Left" Image="" />
+                <Item Name="LeftBottom" Image="" />
+                <Item Name="LeftTop" Image="" />
+                <Item Name="Right" Image="" />
+                <Item Name="RightBottom" Image="" />
+                <Item Name="RightTop" Image="" />
+                <Item Name="Top" Image="" />
+            </State>
+            <State Name="Highlight">
+                <Item Name="Bottom" Image="" />
+                <Item Name="Center" Image="iconDiscord" />
+                <Item Name="Left" Image="" />
+                <Item Name="LeftBottom" Image="" />
+                <Item Name="LeftTop" Image="" />
+                <Item Name="Right" Image="" />
+                <Item Name="RightBottom" Image="" />
+                <Item Name="RightTop" Image="" />
+                <Item Name="Top" Image="" />
+            </State>
+            <State Name="Normal">
+                <Item Name="Bottom" Image="" />
+                <Item Name="Center" Image="iconDiscord" />
+                <Item Name="Left" Image="" />
+                <Item Name="LeftBottom" Image="" />
+                <Item Name="LeftTop" Image="" />
+                <Item Name="Right" Image="" />
+                <Item Name="RightBottom" Image="" />
+                <Item Name="RightTop" Image="" />
+                <Item Name="Top" Image="" />
+            </State>
+            <State Name="Pushed">
+                <Item Name="Bottom" Image="" />
+                <Item Name="Center" Image="iconDiscord" />
+                <Item Name="Left" Image="" />
+                <Item Name="LeftBottom" Image="" />
+                <Item Name="LeftTop" Image="" />
+                <Item Name="Right" Image="" />
+                <Item Name="RightBottom" Image="" />
+                <Item Name="RightTop" Image="" />
+                <Item Name="Top" Image="" />
+            </State>
+        </Style>
+        <Style Name="hrpWWWButton" Font="gui/fonts/amorserifpro-bold" ImageSet="hrpGUI" Color="0">
+            <State Name="Disabled">
+                <Item Name="Bottom" Image="" />
+                <Item Name="Center" Image="iconWWW" />
+                <Item Name="Left" Image="" />
+                <Item Name="LeftBottom" Image="" />
+                <Item Name="LeftTop" Image="" />
+                <Item Name="Right" Image="" />
+                <Item Name="RightBottom" Image="" />
+                <Item Name="RightTop" Image="" />
+                <Item Name="Top" Image="" />
+            </State>
+            <State Name="Focus">
+                <Item Name="Bottom" Image="" />
+                <Item Name="Center" Image="iconWWW" />
+                <Item Name="Left" Image="" />
+                <Item Name="LeftBottom" Image="" />
+                <Item Name="LeftTop" Image="" />
+                <Item Name="Right" Image="" />
+                <Item Name="RightBottom" Image="" />
+                <Item Name="RightTop" Image="" />
+                <Item Name="Top" Image="" />
+            </State>
+            <State Name="Highlight">
+                <Item Name="Bottom" Image="" />
+                <Item Name="Center" Image="iconWWW" />
+                <Item Name="Left" Image="" />
+                <Item Name="LeftBottom" Image="" />
+                <Item Name="LeftTop" Image="" />
+                <Item Name="Right" Image="" />
+                <Item Name="RightBottom" Image="" />
+                <Item Name="RightTop" Image="" />
+                <Item Name="Top" Image="" />
+            </State>
+            <State Name="Normal">
+                <Item Name="Bottom" Image="" />
+                <Item Name="Center" Image="iconWWW" />
+                <Item Name="Left" Image="" />
+                <Item Name="LeftBottom" Image="" />
+                <Item Name="LeftTop" Image="" />
+                <Item Name="Right" Image="" />
+                <Item Name="RightBottom" Image="" />
+                <Item Name="RightTop" Image="" />
+                <Item Name="Top" Image="" />
+            </State>
+            <State Name="Pushed">
+                <Item Name="Bottom" Image="" />
+                <Item Name="Center" Image="iconWWW" />
+                <Item Name="Left" Image="" />
+                <Item Name="LeftBottom" Image="" />
+                <Item Name="LeftTop" Image="" />
+                <Item Name="Right" Image="" />
+                <Item Name="RightBottom" Image="" />
+                <Item Name="RightTop" Image="" />
+                <Item Name="Top" Image="" />
+            </State>
+        </Style>
+        <Style Name="HrpBtnLikePanel" Font="gui/fonts/AmorSerifPro-Bold" ImageSet="hrpGUI" Color="0">
+            <State Name="Disabled">
+                <Item Name="Bottom" Image="PanelPartsBottom" />
+                <Item Name="Center" Image="PanelPartsCenter" />
+                <Item Name="Left" Image="PanelPartsLeft" />
+                <Item Name="LeftBottom" Image="PanelPartsLeftBottom" />
+                <Item Name="LeftTop" Image="PanelPartsLeftTop" />
+                <Item Name="Right" Image="PanelPartsRight" />
+                <Item Name="RightBottom" Image="PanelPartsRightBottom" />
+                <Item Name="RightTop" Image="PanelPartsRightTop" />
+                <Item Name="Top" Image="PanelPartsTop" />
+            </State>
+            <State Name="Focus">
+                <Item Name="Bottom" Image="PanelPartsBottom" />
+                <Item Name="Center" Image="PanelPartsCenter" />
+                <Item Name="Left" Image="PanelPartsLeft" />
+                <Item Name="LeftBottom" Image="PanelPartsLeftBottom" />
+                <Item Name="LeftTop" Image="PanelPartsLeftTop" />
+                <Item Name="Right" Image="PanelPartsRight" />
+                <Item Name="RightBottom" Image="PanelPartsRightBottom" />
+                <Item Name="RightTop" Image="PanelPartsRightTop" />
+                <Item Name="Top" Image="PanelPartsTop" />
+            </State>
+            <State Name="Highlight">
+                <Item Name="Bottom" Image="PanelPartsBottom" />
+                <Item Name="Center" Image="PanelPartsCenter" />
+                <Item Name="Left" Image="PanelPartsLeft" />
+                <Item Name="LeftBottom" Image="PanelPartsLeftBottom" />
+                <Item Name="LeftTop" Image="PanelPartsLeftTop" />
+                <Item Name="Right" Image="PanelPartsRight" />
+                <Item Name="RightBottom" Image="PanelPartsRightBottom" />
+                <Item Name="RightTop" Image="PanelPartsRightTop" />
+                <Item Name="Top" Image="PanelPartsTop" />
+            </State>
+            <State Name="Normal">
+                <Item Name="Bottom" Image="PanelPartsBottom" />
+                <Item Name="Center" Image="PanelPartsCenter" />
+                <Item Name="Left" Image="PanelPartsLeft" />
+                <Item Name="LeftBottom" Image="PanelPartsLeftBottom" />
+                <Item Name="LeftTop" Image="PanelPartsLeftTop" />
+                <Item Name="Right" Image="PanelPartsRight" />
+                <Item Name="RightBottom" Image="PanelPartsRightBottom" />
+                <Item Name="RightTop" Image="PanelPartsRightTop" />
+                <Item Name="Top" Image="PanelPartsTop" />
+            </State>
+            <State Name="Pushed">
+                <Item Name="Bottom" Image="PanelPartsBottom" />
+                <Item Name="Center" Image="PanelPartsCenter" />
+                <Item Name="Left" Image="PanelPartsLeft" />
+                <Item Name="LeftBottom" Image="PanelPartsLeftBottom" />
+                <Item Name="LeftTop" Image="PanelPartsLeftTop" />
+                <Item Name="Right" Image="PanelPartsRight" />
+                <Item Name="RightBottom" Image="PanelPartsRightBottom" />
+                <Item Name="RightTop" Image="PanelPartsRightTop" />
+                <Item Name="Top" Image="PanelPartsTop" />
+            </State>
+        </Style>
+    </Widget>
+    <Widget Name="PanelWidget">
+        <Style Name="hrpPanelB1" Font="gui/fonts/amorserifpro-bold" ImageSet="hrpGUI" Color="0">
+            <State Name="Disabled">
+                <Item Name="Bottom" Image="Button1Bottom" />
+                <Item Name="Center" Image="Button1Center" />
+                <Item Name="Left" Image="Button1Left" />
+                <Item Name="LeftBottom" Image="Button1LeftBottom" />
+                <Item Name="LeftTop" Image="Button1LeftTop" />
+                <Item Name="Right" Image="Button1Right" />
+                <Item Name="RightBottom" Image="Button1RightBottom" />
+                <Item Name="RightTop" Image="Button1RightTop" />
+                <Item Name="Top" Image="Button1Top" />
+            </State>
+            <State Name="Normal">
+                <Item Name="Bottom" Image="Button1Bottom" />
+                <Item Name="Center" Image="Button1Center" />
+                <Item Name="Left" Image="Button1Left" />
+                <Item Name="LeftBottom" Image="Button1LeftBottom" />
+                <Item Name="LeftTop" Image="Button1LeftTop" />
+                <Item Name="Right" Image="Button1Right" />
+                <Item Name="RightBottom" Image="Button1RightBottom" />
+                <Item Name="RightTop" Image="Button1RightTop" />
+                <Item Name="Top" Image="Button1Top" />
+            </State>
+        </Style>
+        <Style Name="hrpPaneBl2" Font="gui/fonts/amorserifpro-bold" ImageSet="hrpGUI" Color="0">
+            <State Name="Disabled">
+                <Item Name="Bottom" Image="Button2Bottom" />
+                <Item Name="Center" Image="Button2Center" />
+                <Item Name="Left" Image="Button2Left" />
+                <Item Name="LeftBottom" Image="Button2LeftBottom" />
+                <Item Name="LeftTop" Image="Button2LeftTop" />
+                <Item Name="Right" Image="Button2Right" />
+                <Item Name="RightBottom" Image="Button2RightBottom" />
+                <Item Name="RightTop" Image="Button2RightTop" />
+                <Item Name="Top" Image="Button2Top" />
+            </State>
+            <State Name="Normal">
+                <Item Name="Bottom" Image="Button2Bottom" />
+                <Item Name="Center" Image="Button2Center" />
+                <Item Name="Left" Image="Button2Left" />
+                <Item Name="LeftBottom" Image="Button2LeftBottom" />
+                <Item Name="LeftTop" Image="Button2LeftTop" />
+                <Item Name="Right" Image="Button2Right" />
+                <Item Name="RightBottom" Image="Button2RightBottom" />
+                <Item Name="RightTop" Image="Button2RightTop" />
+                <Item Name="Top" Image="Button2Top" />
+            </State>
+        </Style>
+        <Style Name="hrpPanelB3" Font="gui/fonts/amorserifpro-bold" ImageSet="hrpGUI" Color="0">
+            <State Name="Disabled">
+                <Item Name="Bottom" Image="Button3Bottom" />
+                <Item Name="Center" Image="Button3Center" />
+                <Item Name="Left" Image="Button3Left" />
+                <Item Name="LeftBottom" Image="Button3LeftBottom" />
+                <Item Name="LeftTop" Image="Button3LeftTop" />
+                <Item Name="Right" Image="Button3Right" />
+                <Item Name="RightBottom" Image="Button3RightBottom" />
+                <Item Name="RightTop" Image="Button3RightTop" />
+                <Item Name="Top" Image="Button3Top" />
+            </State>
+            <State Name="Normal">
+                <Item Name="Bottom" Image="Button3Bottom" />
+                <Item Name="Center" Image="Button3Center" />
+                <Item Name="Left" Image="Button3Left" />
+                <Item Name="LeftBottom" Image="Button3LeftBottom" />
+                <Item Name="LeftTop" Image="Button3LeftTop" />
+                <Item Name="Right" Image="Button3Right" />
+                <Item Name="RightBottom" Image="Button3RightBottom" />
+                <Item Name="RightTop" Image="Button3RightTop" />
+                <Item Name="Top" Image="Button3Top" />
+            </State>
+        </Style>
+        <Style Name="hrpPanelB4" Font="gui/fonts/amorserifpro-bold" ImageSet="hrpGUI" Color="0">
+            <State Name="Disabled">
+                <Item Name="Bottom" Image="Button4Bottom" />
+                <Item Name="Center" Image="Button4Center" />
+                <Item Name="Left" Image="Button4Left" />
+                <Item Name="LeftBottom" Image="Button4LeftBottom" />
+                <Item Name="LeftTop" Image="Button4LeftTop" />
+                <Item Name="Right" Image="Button4Right" />
+                <Item Name="RightBottom" Image="Button4RightBottom" />
+                <Item Name="RightTop" Image="Button4RightTop" />
+                <Item Name="Top" Image="Button4Top" />
+            </State>
+            <State Name="Normal">
+                <Item Name="Bottom" Image="Button4Bottom" />
+                <Item Name="Center" Image="Button4Center" />
+                <Item Name="Left" Image="Button4Left" />
+                <Item Name="LeftBottom" Image="Button4LeftBottom" />
+                <Item Name="LeftTop" Image="Button4LeftTop" />
+                <Item Name="Right" Image="Button4Right" />
+                <Item Name="RightBottom" Image="Button4RightBottom" />
+                <Item Name="RightTop" Image="Button4RightTop" />
+                <Item Name="Top" Image="Button4Top" />
+            </State>
+        </Style>
+        <Style Name="hrpPanelN1" Font="gui/fonts/amorserifpro-bold" ImageSet="hrpGUI" Color="0">
+            <State Name="Disabled">
+                <Item Name="Bottom" Image="PanelPartsBottom" />
+                <Item Name="Center" Image="PanelPartsCenter" />
+                <Item Name="Left" Image="PanelPartsLeft" />
+                <Item Name="LeftBottom" Image="PanelPartsLeftBottom" />
+                <Item Name="LeftTop" Image="PanelPartsLeftTop" />
+                <Item Name="Right" Image="PanelPartsRight" />
+                <Item Name="RightBottom" Image="PanelPartsRightBottom" />
+                <Item Name="RightTop" Image="PanelPartsRightTop" />
+                <Item Name="Top" Image="PanelPartsTop" />
+            </State>
+            <State Name="Normal">
+                <Item Name="Bottom" Image="PanelPartsBottom" />
+                <Item Name="Center" Image="PanelPartsCenter" />
+                <Item Name="Left" Image="PanelPartsLeft" />
+                <Item Name="LeftBottom" Image="PanelPartsLeftBottom" />
+                <Item Name="LeftTop" Image="PanelPartsLeftTop" />
+                <Item Name="Right" Image="PanelPartsRight" />
+                <Item Name="RightBottom" Image="PanelPartsRightBottom" />
+                <Item Name="RightTop" Image="PanelPartsRightTop" />
+                <Item Name="Top" Image="PanelPartsTop" />
+            </State>
+        </Style>
+        <Style Name="hrpPanelN2" Font="gui/fonts/amorserifpro-bold" ImageSet="hrpGUI" Color="0">
+            <State Name="Disabled">
+                <Item Name="Bottom" Image="PanelParts2Bottom" />
+                <Item Name="Center" Image="PanelParts2Center" />
+                <Item Name="Left" Image="PanelParts2Left" />
+                <Item Name="LeftBottom" Image="PanelParts2LeftBottom" />
+                <Item Name="LeftTop" Image="PanelParts2LeftTop" />
+                <Item Name="Right" Image="PanelParts2Right" />
+                <Item Name="RightBottom" Image="PanelParts2RightBottom" />
+                <Item Name="RightTop" Image="PanelParts2RightTop" />
+                <Item Name="Top" Image="PanelParts2Top" />
+            </State>
+            <State Name="Normal">
+                <Item Name="Bottom" Image="PanelParts2Bottom" />
+                <Item Name="Center" Image="PanelParts2Center" />
+                <Item Name="Left" Image="PanelParts2Left" />
+                <Item Name="LeftBottom" Image="PanelParts2LeftBottom" />
+                <Item Name="LeftTop" Image="PanelParts2LeftTop" />
+                <Item Name="Right" Image="PanelParts2Right" />
+                <Item Name="RightBottom" Image="PanelParts2RightBottom" />
+                <Item Name="RightTop" Image="PanelParts2RightTop" />
+                <Item Name="Top" Image="PanelParts2Top" />
+            </State>
+        </Style>
+    </Widget>
+    <Widget Name="ProgressBarWidget">
+        <Style Name="hrp_progressBar" Font="gui/fonts/amorserifpro-bold" ImageSet="hrpGUI" Color="0">
+            <State Name="Disabled">
+                <Item Name="BarBottom" Image="" />
+                <Item Name="BarCenter" Image="ProgressBarFilledCenter" />
+                <Item Name="BarLeft" Image="" />
+                <Item Name="BarLeftBottom" Image="" />
+                <Item Name="BarLeftTop" Image="" />
+                <Item Name="BarRight" Image="" />
+                <Item Name="BarRightBottom" Image="" />
+                <Item Name="BarRightTop" Image="" />
+                <Item Name="BarTop" Image="" />
+                <Item Name="Bottom" Image="" />
+                <Item Name="Center" Image="ProgresBarrEmpty" />
+                <Item Name="Left" Image="" />
+                <Item Name="LeftBottom" Image="" />
+                <Item Name="LeftTop" Image="" />
+                <Item Name="Right" Image="" />
+                <Item Name="RightBottom" Image="" />
+                <Item Name="RightTop" Image="" />
+                <Item Name="Top" Image="" />
+            </State>
+            <State Name="Normal">
+                <Item Name="BarBottom" Image="" />
+                <Item Name="BarCenter" Image="ProgressBarFilledCenter" />
+                <Item Name="BarLeft" Image="" />
+                <Item Name="BarLeftBottom" Image="" />
+                <Item Name="BarLeftTop" Image="" />
+                <Item Name="BarRight" Image="" />
+                <Item Name="BarRightBottom" Image="" />
+                <Item Name="BarRightTop" Image="" />
+                <Item Name="BarTop" Image="" />
+                <Item Name="Bottom" Image="" />
+                <Item Name="Center" Image="ProgresBarrEmpty" />
+                <Item Name="Left" Image="" />
+                <Item Name="LeftBottom" Image="" />
+                <Item Name="LeftTop" Image="" />
+                <Item Name="Right" Image="" />
+                <Item Name="RightBottom" Image="" />
+                <Item Name="RightTop" Image="" />
+                <Item Name="Top" Image="" />
+            </State>
+        </Style>
+    </Widget>
+    <Widget Name="WrapSpacerWidget">
+        <Style Name="hrpWSW1" Font="gui/fonts/amorserifpro-bold" ImageSet="hrpGUI" Color="0">
+            <State Name="Disabled">
+                <Item Name="Bottom" Image="Button1Bottom" />
+                <Item Name="Center" Image="Button1Center" />
+                <Item Name="Left" Image="Button1Left" />
+                <Item Name="LeftBottom" Image="Button1LeftBottom" />
+                <Item Name="LeftTop" Image="Button1LeftTop" />
+                <Item Name="Right" Image="Button1Right" />
+                <Item Name="RightBottom" Image="Button1RightBottom" />
+                <Item Name="RightTop" Image="Button1RightTop" />
+                <Item Name="Top" Image="Button1Top" />
+            </State>
+            <State Name="Normal">
+                <Item Name="Bottom" Image="Button1Bottom" />
+                <Item Name="Center" Image="Button1Center" />
+                <Item Name="Left" Image="Button1Left" />
+                <Item Name="LeftBottom" Image="Button1LeftBottom" />
+                <Item Name="LeftTop" Image="Button1LeftTop" />
+                <Item Name="Right" Image="Button1Right" />
+                <Item Name="RightBottom" Image="Button1RightBottom" />
+                <Item Name="RightTop" Image="Button1RightTop" />
+                <Item Name="Top" Image="Button1Top" />
+            </State>
+        </Style>
+        <Style Name="hrpWSW2" Font="gui/fonts/amorserifpro-bold" ImageSet="hrpGUI" Color="0">
+            <State Name="Disabled">
+                <Item Name="Bottom" Image="Button2Bottom" />
+                <Item Name="Center" Image="Button2Center" />
+                <Item Name="Left" Image="Button2Left" />
+                <Item Name="LeftBottom" Image="Button2LeftBottom" />
+                <Item Name="LeftTop" Image="Button2LeftTop" />
+                <Item Name="Right" Image="Button2Right" />
+                <Item Name="RightBottom" Image="Button2RightBottom" />
+                <Item Name="RightTop" Image="Button2RightTop" />
+                <Item Name="Top" Image="Button2Top" />
+            </State>
+            <State Name="Normal">
+                <Item Name="Bottom" Image="Button2Bottom" />
+                <Item Name="Center" Image="Button2Center" />
+                <Item Name="Left" Image="Button2Left" />
+                <Item Name="LeftBottom" Image="Button2LeftBottom" />
+                <Item Name="LeftTop" Image="Button2LeftTop" />
+                <Item Name="Right" Image="Button2Right" />
+                <Item Name="RightBottom" Image="Button2RightBottom" />
+                <Item Name="RightTop" Image="Button2RightTop" />
+                <Item Name="Top" Image="Button2Top" />
+            </State>
+        </Style>
+        <Style Name="hrpWSW3" Font="gui/fonts/amorserifpro-bold" ImageSet="hrpGUI" Color="0">
+            <State Name="Disabled">
+                <Item Name="Bottom" Image="Button3Bottom" />
+                <Item Name="Center" Image="Button3Center" />
+                <Item Name="Left" Image="Button3Left" />
+                <Item Name="LeftBottom" Image="Button3LeftBottom" />
+                <Item Name="LeftTop" Image="Button3LeftTop" />
+                <Item Name="Right" Image="Button3Right" />
+                <Item Name="RightBottom" Image="Button3RightBottom" />
+                <Item Name="RightTop" Image="Button3RightTop" />
+                <Item Name="Top" Image="Button3Top" />
+            </State>
+            <State Name="Normal">
+                <Item Name="Bottom" Image="Button3Bottom" />
+                <Item Name="Center" Image="Button3Center" />
+                <Item Name="Left" Image="Button3Left" />
+                <Item Name="LeftBottom" Image="Button3LeftBottom" />
+                <Item Name="LeftTop" Image="Button3LeftTop" />
+                <Item Name="Right" Image="Button3Right" />
+                <Item Name="RightBottom" Image="Button3RightBottom" />
+                <Item Name="RightTop" Image="Button3RightTop" />
+                <Item Name="Top" Image="Button3Top" />
+            </State>
+        </Style>
+        <Style Name="hrpWSW4" Font="gui/fonts/amorserifpro-bold" ImageSet="hrpGUI" Color="0">
+            <State Name="Disabled">
+                <Item Name="Bottom" Image="" />
+                <Item Name="Center" Image="" />
+                <Item Name="Left" Image="" />
+                <Item Name="LeftBottom" Image="" />
+                <Item Name="LeftTop" Image="" />
+                <Item Name="Right" Image="" />
+                <Item Name="RightBottom" Image="" />
+                <Item Name="RightTop" Image="" />
+                <Item Name="Top" Image="" />
+            </State>
+            <State Name="Normal">
+                <Item Name="Bottom" Image="Button4Bottom" />
+                <Item Name="Center" Image="Button4Center" />
+                <Item Name="Left" Image="Button4Left" />
+                <Item Name="LeftBottom" Image="Button4LeftBottom" />
+                <Item Name="LeftTop" Image="Button4LeftTop" />
+                <Item Name="Right" Image="Button4Right" />
+                <Item Name="RightBottom" Image="Button4RightBottom" />
+                <Item Name="RightTop" Image="Button4RightTop" />
+                <Item Name="Top" Image="Button4Top" />
+            </State>
+        </Style>
+        <Style Name="hrpWSW5" Font="gui/fonts/amorserifpro-bold" ImageSet="hrpGUI" Color="0">
+            <State Name="Disabled">
+                <Item Name="Bottom" Image="PanelPartsBottom" />
+                <Item Name="Center" Image="PanelPartsCenter" />
+                <Item Name="Left" Image="PanelPartsLeft" />
+                <Item Name="LeftBottom" Image="PanelPartsLeftBottom" />
+                <Item Name="LeftTop" Image="PanelPartsLeftTop" />
+                <Item Name="Right" Image="PanelPartsRight" />
+                <Item Name="RightBottom" Image="PanelPartsRightBottom" />
+                <Item Name="RightTop" Image="PanelPartsRightTop" />
+                <Item Name="Top" Image="PanelPartsTop" />
+            </State>
+            <State Name="Normal">
+                <Item Name="Bottom" Image="PanelPartsBottom" />
+                <Item Name="Center" Image="PanelPartsCenter" />
+                <Item Name="Left" Image="PanelPartsLeft" />
+                <Item Name="LeftBottom" Image="PanelPartsLeftBottom" />
+                <Item Name="LeftTop" Image="PanelPartsLeftTop" />
+                <Item Name="Right" Image="PanelPartsRight" />
+                <Item Name="RightBottom" Image="PanelPartsRightBottom" />
+                <Item Name="RightTop" Image="PanelPartsRightTop" />
+                <Item Name="Top" Image="PanelPartsTop" />
+            </State>
+        </Style>
+        <Style Name="hrpWSW6" Font="gui/fonts/amorserifpro-bold" ImageSet="hrpGUI" Color="0">
+            <State Name="Disabled">
+                <Item Name="Bottom" Image="PanelParts2Bottom" />
+                <Item Name="Center" Image="PanelParts2Center" />
+                <Item Name="Left" Image="PanelParts2Left" />
+                <Item Name="LeftBottom" Image="PanelParts2LeftBottom" />
+                <Item Name="LeftTop" Image="PanelParts2LeftTop" />
+                <Item Name="Right" Image="PanelParts2Right" />
+                <Item Name="RightBottom" Image="PanelParts2RightBottom" />
+                <Item Name="RightTop" Image="PanelParts2RightTop" />
+                <Item Name="Top" Image="PanelParts2Top" />
+            </State>
+            <State Name="Normal">
+                <Item Name="Bottom" Image="PanelParts2Bottom" />
+                <Item Name="Center" Image="PanelParts2Center" />
+                <Item Name="Left" Image="PanelParts2Left" />
+                <Item Name="LeftBottom" Image="PanelParts2LeftBottom" />
+                <Item Name="LeftTop" Image="PanelParts2LeftTop" />
+                <Item Name="Right" Image="PanelParts2Right" />
+                <Item Name="RightBottom" Image="PanelParts2RightBottom" />
+                <Item Name="RightTop" Image="PanelParts2RightTop" />
+                <Item Name="Top" Image="PanelParts2Top" />
+            </State>
+        </Style>
+    </Widget>
+    <Widget Name="GridSpacerWidget">
+        <Style Name="hrpGS1" Font="gui/fonts/amorserifpro-bold" ImageSet="hrpGUI" Color="0">
+            <State Name="Disabled">
+                <Item Name="Bottom" Image="Button1Bottom" />
+                <Item Name="Center" Image="Button1Center" />
+                <Item Name="Left" Image="Button1Left" />
+                <Item Name="LeftBottom" Image="Button1LeftBottom" />
+                <Item Name="LeftTop" Image="Button1LeftTop" />
+                <Item Name="Right" Image="Button1Right" />
+                <Item Name="RightBottom" Image="Button1RightBottom" />
+                <Item Name="RightTop" Image="Button1RightTop" />
+                <Item Name="Top" Image="Button1Top" />
+            </State>
+            <State Name="Normal">
+                <Item Name="Bottom" Image="Button1Bottom" />
+                <Item Name="Center" Image="Button1Center" />
+                <Item Name="Left" Image="Button1Left" />
+                <Item Name="LeftBottom" Image="Button1LeftBottom" />
+                <Item Name="LeftTop" Image="Button1LeftTop" />
+                <Item Name="Right" Image="Button1Right" />
+                <Item Name="RightBottom" Image="Button1RightBottom" />
+                <Item Name="RightTop" Image="Button1RightTop" />
+                <Item Name="Top" Image="Button1Top" />
+            </State>
+        </Style>
+        <Style Name="hrpGS2" Font="gui/fonts/amorserifpro-bold" ImageSet="hrpGUI" Color="0">
+            <State Name="Disabled">
+                <Item Name="Bottom" Image="Button2Bottom" />
+                <Item Name="Center" Image="Button2Center" />
+                <Item Name="Left" Image="Button2Left" />
+                <Item Name="LeftBottom" Image="Button2LeftBottom" />
+                <Item Name="LeftTop" Image="Button2LeftTop" />
+                <Item Name="Right" Image="Button2Right" />
+                <Item Name="RightBottom" Image="Button2RightBottom" />
+                <Item Name="RightTop" Image="Button2RightTop" />
+                <Item Name="Top" Image="Button2Top" />
+            </State>
+            <State Name="Normal">
+                <Item Name="Bottom" Image="Button2Bottom" />
+                <Item Name="Center" Image="Button2Center" />
+                <Item Name="Left" Image="Button2Left" />
+                <Item Name="LeftBottom" Image="Button2LeftBottom" />
+                <Item Name="LeftTop" Image="Button2LeftTop" />
+                <Item Name="Right" Image="Button2Right" />
+                <Item Name="RightBottom" Image="Button2RightBottom" />
+                <Item Name="RightTop" Image="Button2RightTop" />
+                <Item Name="Top" Image="Button2Top" />
+            </State>
+        </Style>
+        <Style Name="hrpGS3" Font="gui/fonts/amorserifpro-bold" ImageSet="hrpGUI" Color="0">
+            <State Name="Disabled">
+                <Item Name="Bottom" Image="Button3Bottom" />
+                <Item Name="Center" Image="Button3Center" />
+                <Item Name="Left" Image="Button3Left" />
+                <Item Name="LeftBottom" Image="Button3LeftBottom" />
+                <Item Name="LeftTop" Image="Button3LeftTop" />
+                <Item Name="Right" Image="Button3Right" />
+                <Item Name="RightBottom" Image="Button3RightBottom" />
+                <Item Name="RightTop" Image="Button3RightTop" />
+                <Item Name="Top" Image="Button3Top" />
+            </State>
+            <State Name="Normal">
+                <Item Name="Bottom" Image="Button3Bottom" />
+                <Item Name="Center" Image="Button3Center" />
+                <Item Name="Left" Image="Button3Left" />
+                <Item Name="LeftBottom" Image="Button3LeftBottom" />
+                <Item Name="LeftTop" Image="Button3LeftTop" />
+                <Item Name="Right" Image="Button3Right" />
+                <Item Name="RightBottom" Image="Button3RightBottom" />
+                <Item Name="RightTop" Image="Button3RightTop" />
+                <Item Name="Top" Image="Button3Top" />
+            </State>
+        </Style>
+        <Style Name="hrpGS4" Font="gui/fonts/amorserifpro-bold" ImageSet="hrpGUI" Color="0">
+            <State Name="Disabled">
+                <Item Name="Bottom" Image="Button4Bottom" />
+                <Item Name="Center" Image="Button4Center" />
+                <Item Name="Left" Image="Button4Left" />
+                <Item Name="LeftBottom" Image="Button4LeftBottom" />
+                <Item Name="LeftTop" Image="Button4LeftTop" />
+                <Item Name="Right" Image="Button4Right" />
+                <Item Name="RightBottom" Image="Button4RightBottom" />
+                <Item Name="RightTop" Image="Button4RightTop" />
+                <Item Name="Top" Image="Button4Top" />
+            </State>
+            <State Name="Normal">
+                <Item Name="Bottom" Image="Button4Bottom" />
+                <Item Name="Center" Image="Button4Center" />
+                <Item Name="Left" Image="Button4Left" />
+                <Item Name="LeftBottom" Image="Button4LeftBottom" />
+                <Item Name="LeftTop" Image="Button4LeftTop" />
+                <Item Name="Right" Image="Button4Right" />
+                <Item Name="RightBottom" Image="Button4RightBottom" />
+                <Item Name="RightTop" Image="Button4RightTop" />
+                <Item Name="Top" Image="Button4Top" />
+            </State>
+        </Style>
+        <Style Name="hrpGS5" Font="gui/fonts/amorserifpro-bold" ImageSet="hrpGUI" Color="0">
+            <State Name="Disabled">
+                <Item Name="Bottom" Image="PanelPartsBottom" />
+                <Item Name="Center" Image="PanelPartsCenter" />
+                <Item Name="Left" Image="PanelPartsLeft" />
+                <Item Name="LeftBottom" Image="PanelPartsLeftBottom" />
+                <Item Name="LeftTop" Image="PanelPartsLeftTop" />
+                <Item Name="Right" Image="PanelPartsRight" />
+                <Item Name="RightBottom" Image="PanelPartsRightBottom" />
+                <Item Name="RightTop" Image="PanelPartsRightTop" />
+                <Item Name="Top" Image="PanelPartsTop" />
+            </State>
+            <State Name="Normal">
+                <Item Name="Bottom" Image="PanelPartsBottom" />
+                <Item Name="Center" Image="PanelPartsCenter" />
+                <Item Name="Left" Image="PanelPartsLeft" />
+                <Item Name="LeftBottom" Image="PanelPartsLeftBottom" />
+                <Item Name="LeftTop" Image="PanelPartsLeftTop" />
+                <Item Name="Right" Image="PanelPartsRight" />
+                <Item Name="RightBottom" Image="PanelPartsRightBottom" />
+                <Item Name="RightTop" Image="PanelPartsRightTop" />
+                <Item Name="Top" Image="PanelPartsTop" />
+            </State>
+        </Style>
+        <Style Name="hrpGS6" Font="gui/fonts/amorserifpro-bold" ImageSet="hrpGUI" Color="0">
+            <State Name="Disabled">
+                <Item Name="Bottom" Image="PanelParts2Bottom" />
+                <Item Name="Center" Image="PanelParts2Center" />
+                <Item Name="Left" Image="PanelParts2Left" />
+                <Item Name="LeftBottom" Image="PanelParts2LeftBottom" />
+                <Item Name="LeftTop" Image="PanelParts2LeftTop" />
+                <Item Name="Right" Image="PanelParts2Right" />
+                <Item Name="RightBottom" Image="PanelParts2RightBottom" />
+                <Item Name="RightTop" Image="PanelParts2RightTop" />
+                <Item Name="Top" Image="PanelParts2Top" />
+            </State>
+            <State Name="Normal">
+                <Item Name="Bottom" Image="PanelParts2Bottom" />
+                <Item Name="Center" Image="PanelParts2Center" />
+                <Item Name="Left" Image="PanelParts2Left" />
+                <Item Name="LeftBottom" Image="PanelParts2LeftBottom" />
+                <Item Name="LeftTop" Image="PanelParts2LeftTop" />
+                <Item Name="Right" Image="PanelParts2Right" />
+                <Item Name="RightBottom" Image="PanelParts2RightBottom" />
+                <Item Name="RightTop" Image="PanelParts2RightTop" />
+                <Item Name="Top" Image="PanelParts2Top" />
+            </State>
+        </Style>
+    </Widget>
+    <Widget Name="EditBoxWidget">
+        <Style Name="HrpEditBox" Font="gui/fonts/AmorSerifPro-Bold" ImageSet="hrpGUI" Color="11">
+            <State Name="Disabled">
+                <Item Name="Bottom" Image="PanelPartsBottom" />
+                <Item Name="Center" Image="PanelPartsCenter" />
+                <Item Name="Left" Image="PanelPartsLeft" />
+                <Item Name="LeftBottom" Image="PanelPartsLeftBottom" />
+                <Item Name="LeftTop" Image="PanelPartsLeftTop" />
+                <Item Name="Right" Image="PanelPartsRight" />
+                <Item Name="RightBottom" Image="PanelPartsRightBottom" />
+                <Item Name="RightTop" Image="PanelPartsRightTop" />
+                <Item Name="Top" Image="PanelPartsTop" />
+            </State>
+            <State Name="Focus">
+                <Item Name="Bottom" Image="PanelPartsBottom" />
+                <Item Name="Center" Image="PanelPartsCenter" />
+                <Item Name="Left" Image="PanelPartsLeft" />
+                <Item Name="LeftBottom" Image="PanelPartsLeftBottom" />
+                <Item Name="LeftTop" Image="PanelPartsLeftTop" />
+                <Item Name="Right" Image="PanelPartsRight" />
+                <Item Name="RightBottom" Image="PanelPartsRightBottom" />
+                <Item Name="RightTop" Image="PanelPartsRightTop" />
+                <Item Name="Top" Image="PanelPartsTop" />
+            </State>
+            <State Name="Normal">
+                <Item Name="Bottom" Image="PanelPartsBottom" />
+                <Item Name="Center" Image="PanelPartsCenter" />
+                <Item Name="Left" Image="PanelPartsLeft" />
+                <Item Name="LeftBottom" Image="PanelPartsLeftBottom" />
+                <Item Name="LeftTop" Image="PanelPartsLeftTop" />
+                <Item Name="Right" Image="PanelPartsRight" />
+                <Item Name="RightBottom" Image="PanelPartsRightBottom" />
+                <Item Name="RightTop" Image="PanelPartsRightTop" />
+                <Item Name="Top" Image="PanelPartsTop" />
+            </State>
+        </Style>
+    </Widget>
+</WidgetStyles>

@@ -1,0 +1,299 @@
+FrameWidgetClass LoadingFrame {
+ position 0 0
+ size 1 1
+ halign center_ref
+ valign center_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ priority 1000
+ {
+  PanelWidgetClass PanelWidget1 {
+   visible 1
+   clipchildren 0
+   color 0 0 0 1
+   position 0 0
+   size 1 1
+   halign center_ref
+   valign center_ref
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 0
+   style rover_sim_colorable
+   {
+    ImageWidgetClass ImageBackground {
+     visible 1
+     position 0 -0.003
+     size 0.16 0.09
+     halign center_ref
+     valign center_ref
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     fixaspect outside
+     image0 ""
+     imageTexture "{37E7B478530E3531}HumanityRP/hrp_gui/gui/pictures/bg1.edds"
+     mode blend
+     "src alpha" 0
+     stretch 1
+     "Transition width" 1
+     Progress 0
+    }
+    ImageWidgetClass ImageLogoMid {
+     visible 1
+     inheritalpha 1
+     position 100 100.054
+     size 444 104
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     fixaspect outside
+     image0 ""
+     imageTexture "{90FC8130808C4072}HumanityRP/hrp_gui/gui/pictures/logo.edds"
+     mode blend
+     "src alpha" 1
+     "no wrap" 1
+     stretch 1
+     filter 1
+     nocache 0
+    }
+    ImageWidgetClass ImageLogoCorner {
+     visible 0
+     inheritalpha 1
+     position 100 100.054
+     size 444 104
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     fixaspect outside
+     image0 ""
+     imageTexture "{98FE98C475807EDF}hrp_gui/gui/pictures/logo.edds"
+     mode additive
+     "src alpha" 1
+     "no wrap" 1
+     stretch 1
+     filter 1
+     nocache 0
+    }
+    PanelWidgetClass MapPanel {
+     visible 0
+     color 0 0 0 0.549
+     position 100 292.14999
+     size 444 274.651
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style rover_sim_colorable
+     {
+      RichTextWidgetClass LoadingMapName {
+       position 6 0.801
+       size 432 30.35
+       hexactpos 1
+       vexactpos 0
+       hexactsize 1
+       vexactsize 1
+       text "DayZ Expansion - CHERNARUS PLUS"
+       font "gui/fonts/etelkatextpro"
+       "exact text" 1
+       "text valign" center
+      }
+      RichTextWidgetClass LoadingMapAuthor {
+       color 0.502 0.502 0.502 1
+       position 6 0.9
+       size 432 22.338
+       hexactpos 1
+       vexactpos 0
+       hexactsize 1
+       vexactsize 1
+       text "www.dayzexpansion.com"
+       font "gui/fonts/etelkatextpro"
+       "text color" 0.502 0.502 0.502 1
+       "exact text" 1
+      }
+      ImageWidgetClass LoadingMapImage {
+       inheritalpha 0
+       ignorepointer 0
+       keepsafezone 0
+       position 0 0
+       size 444 216
+       halign right_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       scaled 1
+       fixaspect outside
+       priority 1
+       scriptclass ""
+       image0 ""
+       mode blend
+       "src alpha" 1
+       "no wrap" 0
+       stretch 1
+       filter 1
+       nocache 0
+      }
+     }
+    }
+    TextWidgetClass TextWidget {
+     visible 0
+     position 0 0.05
+     size 0.7438 0.06
+     halign center_ref
+     valign bottom_ref
+     text "#layout_loading_loadingtext"
+     "exact text" 1
+     "text halign" center
+     "text valign" center
+    }
+    TextWidgetClass ProgressText {
+     visible 0
+     clipchildren 0
+     ignorepointer 1
+     position 0 200
+     size 100 30
+     halign center_ref
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "100%"
+     font "gui/fonts/sdf_MetronLight24"
+     "text halign" center
+    }
+    MultilineTextWidgetClass ModdedWarning {
+     visible 1
+     inheritalpha 1
+     position 100 204.054
+     size 444 30
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     fixaspect outside
+     text "#str_modded_version_warning0"
+     font "gui/fonts/etelkatextpro22"
+     "exact text" 1
+     "size to text h" 1
+     "size to text v" 1
+     wrap 1
+    }
+    PanelWidgetClass ModVersionPanel {
+     visible 0
+     ignorepointer 1
+     position 100 78
+     size 350 350
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     priority 1
+     style blank
+     {
+      ImageWidgetClass ModOutdatedImage {
+       visible 1
+       inheritalpha 1
+       color 0.8667 0.149 0.149 0.549
+       position 0 0.05
+       size 0.5 0.5
+       halign center_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       priority 2
+       image0 ""
+       mode blend
+       "src alpha" 1
+       "no wrap" 1
+       stretch 1
+       filter 1
+       nocache 0
+      }
+      MultilineTextWidgetClass ModOutdatedText {
+       visible 1
+       inheritalpha 1
+       position 0 0.05
+       size 0.9 0.08
+       halign center_ref
+       valign bottom_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       priority 2
+       text "#str_modded_version_warning0"
+       font "gui/fonts/etelkatextpro22"
+       "exact text" 1
+       "size to text h" 0
+       "size to text v" 1
+       wrap 1
+       "condense whitespace" 1
+       "strip newlines" 1
+      }
+      PanelWidgetClass ModOutdatedBackground {
+       ignorepointer 1
+       color 0.1137 0.1255 0.1451 0.5529
+       size 1 1
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       style DayZDefaultPanel
+      }
+      PanelWidgetClass ModOutdatedCorners {
+       ignorepointer 1
+       color 0.8667 0.149 0.149 1
+       size 0.95 0.95
+       halign center_ref
+       valign center_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       priority 1
+       style Outline
+      }
+     }
+    }
+   }
+  }
+  TextWidgetClass StatusText {
+   position 30 30
+   size 480 75
+   halign right_ref
+   valign bottom_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   "exact text" 1
+   "text halign" center
+   "text valign" center
+  }
+  ProgressBarWidgetClass LoadingBar {
+   inheritalpha 0
+   ignorepointer 1
+   color 0.6863 0.2588 0.2588 1
+   position 75 75
+   size 0.25 52
+   valign bottom_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   scaled 1
+   style hrp_progressBar
+   vertical 0
+   flipped 0
+  }
+ }
+}

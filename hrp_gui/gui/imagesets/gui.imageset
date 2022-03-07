@@ -1,0 +1,397 @@
+ImageSetClass {
+ Name "hrpGUI"
+ RefSize 1024 1024
+ Textures {
+  ImageSetTextureClass {
+   mpix 1
+   path "{25304566D52066DD}HumanityRP/hrp_gui/gui/imagesets/gui.edds"
+  }
+ }
+ Images {
+  ImageSetDefClass iconDiscord {
+   Name "iconDiscord"
+   Pos 77 1
+   Size 72 64
+   Flags 0
+  }
+  ImageSetDefClass iconWWW {
+   Name "iconWWW"
+   Pos 3 0
+   Size 68 65
+   Flags 0
+  }
+  ImageSetDefClass ProgresBarrEmpty {
+   Name "ProgresBarrEmpty"
+   Pos 512 5
+   Size 250 30
+   Flags 0
+  }
+ }
+ Groups {
+  ImageSetGroupClass Button1 {
+   Name "Button1"
+   Images {
+    ImageSetDefClass Button1LeftTop {
+     Name "Button1LeftTop"
+     Pos 792 3
+     Size 15 8
+     Flags 0
+    }
+    ImageSetDefClass Button1Left {
+     Name "Button1Left"
+     Pos 792 11
+     Size 15 34
+     Flags 0
+    }
+    ImageSetDefClass Button1LeftBottom {
+     Name "Button1LeftBottom"
+     Pos 792 45
+     Size 15 8
+     Flags 0
+    }
+    ImageSetDefClass Button1Top {
+     Name "Button1Top"
+     Pos 807 3
+     Size 122 8
+     Flags 0
+    }
+    ImageSetDefClass Button1Center {
+     Name "Button1Center"
+     Pos 807 11
+     Size 122 34
+     Flags 0
+    }
+    ImageSetDefClass Button1Bottom {
+     Name "Button1Bottom"
+     Pos 807 45
+     Size 122 8
+     Flags 0
+    }
+    ImageSetDefClass Button1RightTop {
+     Name "Button1RightTop"
+     Pos 929 3
+     Size 90 8
+     Flags 0
+    }
+    ImageSetDefClass Button1Right {
+     Name "Button1Right"
+     Pos 929 11
+     Size 90 34
+     Flags 0
+    }
+    ImageSetDefClass Button1RightBottom {
+     Name "Button1RightBottom"
+     Pos 929 45
+     Size 90 8
+     Flags 0
+    }
+   }
+  }
+  ImageSetGroupClass Button2 {
+   Name "Button2"
+   Images {
+    ImageSetDefClass Button2LeftTop {
+     Name "Button2LeftTop"
+     Pos 792 59
+     Size 15 8
+     Flags 0
+    }
+    ImageSetDefClass Button2Left {
+     Name "Button2Left"
+     Pos 792 67
+     Size 15 34
+     Flags 0
+    }
+    ImageSetDefClass Button2LeftBottom {
+     Name "Button2LeftBottom"
+     Pos 792 101
+     Size 15 8
+     Flags 0
+    }
+    ImageSetDefClass Button2Top {
+     Name "Button2Top"
+     Pos 807 59
+     Size 122 8
+     Flags 0
+    }
+    ImageSetDefClass Button2Center {
+     Name "Button2Center"
+     Pos 807 67
+     Size 122 34
+     Flags 0
+    }
+    ImageSetDefClass Button2Bottom {
+     Name "Button2Bottom"
+     Pos 807 101
+     Size 122 8
+     Flags 0
+    }
+    ImageSetDefClass Button2RightTop {
+     Name "Button2RightTop"
+     Pos 929 59
+     Size 90 8
+     Flags 0
+    }
+    ImageSetDefClass Button2Right {
+     Name "Button2Right"
+     Pos 929 67
+     Size 90 34
+     Flags 0
+    }
+    ImageSetDefClass Button2RightBottom {
+     Name "Button2RightBottom"
+     Pos 929 101
+     Size 90 8
+     Flags 0
+    }
+   }
+  }
+  ImageSetGroupClass Button3 {
+   Name "Button3"
+   Images {
+    ImageSetDefClass Button3LeftTop {
+     Name "Button3LeftTop"
+     Pos 792 116
+     Size 15 8
+     Flags 0
+    }
+    ImageSetDefClass Button3Left {
+     Name "Button3Left"
+     Pos 792 124
+     Size 15 34
+     Flags 0
+    }
+    ImageSetDefClass Button3LeftBottom {
+     Name "Button3LeftBottom"
+     Pos 792 158
+     Size 15 8
+     Flags 0
+    }
+    ImageSetDefClass Button3Top {
+     Name "Button3Top"
+     Pos 807 116
+     Size 122 8
+     Flags 0
+    }
+    ImageSetDefClass Button3Center {
+     Name "Button3Center"
+     Pos 807 124
+     Size 122 34
+     Flags 0
+    }
+    ImageSetDefClass Button3Bottom {
+     Name "Button3Bottom"
+     Pos 807 158
+     Size 122 8
+     Flags 0
+    }
+    ImageSetDefClass Button3RightTop {
+     Name "Button3RightTop"
+     Pos 929 116
+     Size 90 8
+     Flags 0
+    }
+    ImageSetDefClass Button3Right {
+     Name "Button3Right"
+     Pos 929 124
+     Size 90 34
+     Flags 0
+    }
+    ImageSetDefClass Button3RightBottom {
+     Name "Button3RightBottom"
+     Pos 929 158
+     Size 90 8
+     Flags 0
+    }
+   }
+  }
+  ImageSetGroupClass Button4 {
+   Name "Button4"
+   Images {
+    ImageSetDefClass Button4LeftTop {
+     Name "Button4LeftTop"
+     Pos 792 172
+     Size 15 8
+     Flags 0
+    }
+    ImageSetDefClass Button4Left {
+     Name "Button4Left"
+     Pos 792 180
+     Size 15 34
+     Flags 0
+    }
+    ImageSetDefClass Button4LeftBottom {
+     Name "Button4LeftBottom"
+     Pos 792 214
+     Size 15 8
+     Flags 0
+    }
+    ImageSetDefClass Button4Top {
+     Name "Button4Top"
+     Pos 807 172
+     Size 122 8
+     Flags 0
+    }
+    ImageSetDefClass Button4Center {
+     Name "Button4Center"
+     Pos 807 180
+     Size 122 34
+     Flags 0
+    }
+    ImageSetDefClass Button4Bottom {
+     Name "Button4Bottom"
+     Pos 807 214
+     Size 122 8
+     Flags 0
+    }
+    ImageSetDefClass Button4RightTop {
+     Name "Button4RightTop"
+     Pos 929 172
+     Size 90 8
+     Flags 0
+    }
+    ImageSetDefClass Button4Right {
+     Name "Button4Right"
+     Pos 929 180
+     Size 90 34
+     Flags 0
+    }
+    ImageSetDefClass Button4RightBottom {
+     Name "Button4RightBottom"
+     Pos 929 214
+     Size 90 8
+     Flags 0
+    }
+   }
+  }
+  ImageSetGroupClass PanelParts {
+   Name "PanelParts"
+   Images {
+    ImageSetDefClass PanelPartsLeftTop {
+     Name "PanelPartsLeftTop"
+     Pos 763 3
+     Size 4 4
+     Flags 0
+    }
+    ImageSetDefClass PanelPartsLeft {
+     Name "PanelPartsLeft"
+     Pos 763 7
+     Size 4 18
+     Flags ISVerticalTile
+    }
+    ImageSetDefClass PanelPartsLeftBottom {
+     Name "PanelPartsLeftBottom"
+     Pos 763 25
+     Size 4 4
+     Flags 0
+    }
+    ImageSetDefClass PanelPartsTop {
+     Name "PanelPartsTop"
+     Pos 767 3
+     Size 17 4
+     Flags 0
+    }
+    ImageSetDefClass PanelPartsCenter {
+     Name "PanelPartsCenter"
+     Pos 775 16
+     Size 1 1
+     Flags 0
+    }
+    ImageSetDefClass PanelPartsBottom {
+     Name "PanelPartsBottom"
+     Pos 767 25
+     Size 17 4
+     Flags 0
+    }
+    ImageSetDefClass PanelPartsRightTop {
+     Name "PanelPartsRightTop"
+     Pos 784 3
+     Size 4 4
+     Flags 0
+    }
+    ImageSetDefClass PanelPartsRight {
+     Name "PanelPartsRight"
+     Pos 784 7
+     Size 4 18
+     Flags ISVerticalTile
+    }
+    ImageSetDefClass PanelPartsRightBottom {
+     Name "PanelPartsRightBottom"
+     Pos 784 25
+     Size 4 4
+     Flags 0
+    }
+   }
+  }
+  ImageSetGroupClass ProgressBarFilled {
+   Name "ProgressBarFilled"
+   Images {
+    ImageSetDefClass ProgressBarFilledCenter {
+     Name "ProgressBarFilledCenter"
+     Pos 512 36
+     Size 250 30
+     Flags 0
+    }
+   }
+  }
+  ImageSetGroupClass PanelParts2 {
+   Name "PanelParts2"
+   Images {
+    ImageSetDefClass PanelParts2LeftTop {
+     Name "PanelParts2LeftTop"
+     Pos 527 70
+     Size 11 10
+     Flags 0
+    }
+    ImageSetDefClass PanelParts2Left {
+     Name "PanelParts2Left"
+     Pos 527 80
+     Size 11 200
+     Flags 0
+    }
+    ImageSetDefClass PanelParts2LeftBottom {
+     Name "PanelParts2LeftBottom"
+     Pos 527 280
+     Size 11 10
+     Flags 0
+    }
+    ImageSetDefClass PanelParts2Top {
+     Name "PanelParts2Top"
+     Pos 538 70
+     Size 199 10
+     Flags 0
+    }
+    ImageSetDefClass PanelParts2Center {
+     Name "PanelParts2Center"
+     Pos 538 80
+     Size 199 200
+     Flags 0
+    }
+    ImageSetDefClass PanelParts2Bottom {
+     Name "PanelParts2Bottom"
+     Pos 538 280
+     Size 199 10
+     Flags 0
+    }
+    ImageSetDefClass PanelParts2RightTop {
+     Name "PanelParts2RightTop"
+     Pos 737 70
+     Size 10 10
+     Flags 0
+    }
+    ImageSetDefClass PanelParts2Right {
+     Name "PanelParts2Right"
+     Pos 737 80
+     Size 10 200
+     Flags 0
+    }
+    ImageSetDefClass PanelParts2RightBottom {
+     Name "PanelParts2RightBottom"
+     Pos 737 280
+     Size 10 10
+     Flags 0
+    }
+   }
+  }
+ }
+}

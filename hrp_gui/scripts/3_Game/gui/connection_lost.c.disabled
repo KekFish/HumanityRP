@@ -1,0 +1,52 @@
+modded class ConnectionLost
+{
+	private ref Widget m_WidgetRoot;
+	private TextWidget m_TextWidgetTitle;
+	private float m_duration;
+
+	void ConnectionLost(DayZGame game)
+	{
+		m_WidgetRoot = game.GetWorkspace().CreateWidgets("HumanityRP/hrp_gui/gui/loadingsrc/day_z_connection_lost.layout");
+		m_WidgetRoot.Show(false);
+
+		Class.CastTo(m_TextWidgetTitle, m_WidgetRoot.FindAnyWidget("TextWidget"));
+		m_duration = 0.0;
+	};
+
+	void Show()
+	{
+		if (!m_WidgetRoot.IsVisible())
+		{
+			if (g_Game.GetUIManager().IsDialogVisible())
+			{
+				g_Game.GetUIManager().HideDialog();
+			};
+
+			m_WidgetRoot.Show(true);
+			m_TextWidgetTitle.SetText("");
+		};
+	};
+
+	void Hide()
+	{
+		if (m_WidgetRoot.IsVisible())
+		{
+			m_WidgetRoot.Show(false);
+		};
+	};
+
+	void SetText(string text)
+	{
+		m_TextWidgetTitle.SetText(text);
+	};
+
+	float GetDuration()
+	{
+		return m_duration;
+	};
+
+	void SetDuration(float duration)
+	{
+		m_duration = duration;
+	};
+};

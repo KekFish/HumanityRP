@@ -1,0 +1,475 @@
+FrameWidgetClass main_menu_root {
+ visible 1
+ ignorepointer 1
+ position 0 0
+ size 1 1
+ halign center_ref
+ valign center_ref
+ hexactpos 1
+ vexactpos 1
+ hexactsize 0
+ vexactsize 0
+ priority 951
+ {
+  PanelWidgetClass character_name_xbox_background {
+   visible 0
+   color 0 0 0 0.549
+   position 100 80
+   size 400 38
+   halign right_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   priority 5
+   style blank
+   {
+    TextWidgetClass character_name_xbox {
+     visible 1
+     inheritalpha 0
+     ignorepointer 1
+     position 0 0
+     size 1 1
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     priority 3
+     text "#STR_main_menu_root_character_name_xbox_background_character_name_xbox0"
+     font "gui/fonts/sdf_MetronLight24"
+     "exact text" 0
+     text_proportion 0.55
+     "text halign" center
+     "text valign" center
+    }
+   }
+  }
+  MultilineTextWidgetClass ModdedWarning {
+   visible 0
+   inheritalpha 1
+   size 540 30
+   halign right_ref
+   valign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   fixaspect outside
+   priority 5
+   text "#str_modded_version_warning0"
+   font "gui/fonts/sdf_MetronLight24"
+   "exact text" 1
+   "exact text size" 20
+   "size to text h" 1
+   "size to text v" 1
+   wrap 1
+  }
+  WrapSpacerWidgetClass ModsSimple {
+   visible 0
+   clipchildren 0
+   ignorepointer 1
+   position 99.9999 0.05
+   size 730 56
+   halign right_ref
+   valign bottom_ref
+   hexactpos 1
+   vexactpos 0
+   hexactsize 1
+   vexactsize 1
+   priority 5
+   style Empty
+   Padding 0
+   Margin 0
+   "Size To Content H" 1
+   content_halign right
+   content_valign bottom
+  }
+  FrameWidgetClass character_rotation_frame {
+   ignorepointer 0
+   position 75 28.5032
+   size 0.6327 0.7692
+   halign right_ref
+   valign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   scaled 1
+   priority 2
+  }
+  ImageWidgetClass vignette {
+   visible 1
+   ignorepointer 0
+   color 0 0 0 0.7843
+   position 0 0
+   size 1 1
+   halign center_ref
+   valign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   scaled 1
+   imageTexture "{E6B3EF816E067499}Gui/textures/inventory_bgvignette.edds"
+   mode blend
+   "src alpha" 1
+   "no wrap" 1
+   stretch 1
+   "flip v" 0
+   filter 0
+   nocache 1
+  }
+  GridSpacerWidgetClass community_buttons_container {
+   ignorepointer 1
+   position 75 75
+   size 138.89102 74.68871
+   halign right_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style Colorable
+   Padding 25
+   Margin 5
+   "Size To Content H" 1
+   "Size To Content V" 1
+   Columns 2
+   Rows 1
+   {
+    ButtonWidgetClass discord_button {
+     visible 1
+     color 1 1 1 0.7843
+     position 0 0
+     size 48 48
+     halign right_ref
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     priority 1
+     style hrpDiscordButton
+     "no focus" 1
+     "next up" "character_button"
+     "next down" "play"
+     font "gui/fonts/sdf_MetronLight24"
+     switch normal
+    }
+    ButtonWidgetClass www_button {
+     visible 1
+     color 1 1 1 0.7843
+     position 0 0
+     size 48 48
+     halign right_ref
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     priority 1
+     style hrpWWWButton
+     "no focus" 1
+     "next up" "character_button"
+     "next down" "play"
+     font "gui/fonts/sdf_MetronLight24"
+     switch normal
+    }
+   }
+  }
+  FrameWidgetClass menu_container {
+   ignorepointer 1
+   position 75 0
+   size 0.25 0.4
+   valign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   scaled 0
+   {
+    ImageWidgetClass hrp_logo {
+     visible 1
+     clipchildren 1
+     ignorepointer 1
+     keepsafezone 0
+     position 0 7.104
+     size 480 96.896
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     scaled 1
+     priority 2
+     image0 ""
+     imageTexture "{90FC8130808C4072}HumanityRP/hrp_gui/gui/pictures/logo.edds"
+     mode additive
+     "src alpha" 1
+     stretch 1
+     filter 0
+    }
+    WrapSpacerWidgetClass main_menu_buttons {
+     ignorepointer 1
+     position 0 0.27
+     size 1 0.11
+     hexactpos 1
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     scaled 1
+     draggable 0
+     Padding 8
+     Margin 0
+     "Size To Content H" 1
+     "Size To Content V" 1
+     content_halign center
+     {
+      ButtonWidgetClass play {
+       visible 1
+       disabled 0
+       clipchildren 1
+       inheritalpha 0
+       ignorepointer 0
+       keepsafezone 0
+       color 0.502 0 0 0.9373
+       position 0 0
+       size 0.9 1.75
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       scaled 0
+       priority 2
+       style hrpButton1
+       "no focus" 1
+       "next up" "play"
+       "next down" "customize_character"
+       text_offset 30 0
+       text_proportion 0.9
+       text_halign left
+       font "gui/fonts/etelkatextpro"
+       switch normal
+       {
+        TextWidgetClass play_text {
+         inheritalpha 0
+         ignorepointer 1
+         size 0.95 0.8
+         halign right_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 0
+         text "#hrp_play"
+         font "gui/fonts/etelkatextpro"
+         "exact text" 0
+         "size to text h" 0
+         "size to text v" 0
+         "text valign" center
+        }
+       }
+      }
+      ButtonWidgetClass character_button {
+       visible 1
+       color 0 0 0 0.9373
+       position 0 0
+       size 0.9 1.25
+       halign right_ref
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       scaled 0
+       priority 2
+       style hrpButton2
+       "no focus" 0
+       "next left" ""
+       "next right" ""
+       "next up" "settings_button"
+       "next down" "discord_button"
+       text_offset 25 0
+       text_proportion 0.9
+       text_halign left
+       font "gui/fonts/etelkatextpro"
+       {
+        TextWidgetClass character_text {
+         ignorepointer 1
+         size 0.95 0.8
+         halign right_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 0
+         text "#hrp_character"
+         font "gui/fonts/etelkatextpro"
+         "exact text" 0
+         text_proportion 0.9
+         "size to text h" 0
+         "size to text v" 0
+         "text valign" center
+        }
+       }
+      }
+      ButtonWidgetClass settings_button {
+       color 0 0 0 0.9373
+       position 0 0
+       size 0.9 1.25
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       scaled 0
+       priority 2
+       style hrpButton3
+       "no focus" 0
+       "next left" "news_main"
+       "next right" "exit_button"
+       "next up" "play"
+       "next down" "customize_character"
+       text_offset 25 0
+       text_proportion 0.9
+       text_halign left
+       font "gui/fonts/etelkatextpro"
+       switch normal
+       {
+        TextWidgetClass settings_text {
+         ignorepointer 1
+         size 0.95 0.8
+         halign right_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 0
+         text "#hrp_settings"
+         font "gui/fonts/etelkatextpro"
+         "exact text" 0
+         text_proportion 0.9
+         "size to text h" 0
+         "size to text v" 0
+         "text valign" center
+        }
+       }
+      }
+      ButtonWidgetClass exit_button {
+       disabled 0
+       color 0 0 0 0.9373
+       position 0 0
+       size 0.9 1.25
+       halign right_ref
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       scaled 0
+       priority 2
+       style hrpButton4
+       "no focus" 0
+       "next left" "settings_button"
+       "next right" "play"
+       "next up" "settings_button"
+       "next down" "customize_character"
+       text_offset 25 0
+       text_proportion 0.9
+       text_halign left
+       font "gui/fonts/etelkatextpro"
+       switch normal
+       {
+        TextWidgetClass exit_text {
+         ignorepointer 1
+         size 0.95 0.8
+         halign right_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 0
+         text "#hrp_exit"
+         font "gui/fonts/etelkatextpro"
+         "exact text" 0
+         text_proportion 0.9
+         "size to text h" 0
+         "size to text v" 0
+         "text valign" center
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  WrapSpacerWidgetClass Licensing {
+   clipchildren 0
+   position 50 50
+   size 0.45 30
+   valign bottom_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   priority 5
+   Padding 8
+   Margin 0
+   "Size To Content H" 1
+   "Size To Content V" 1
+   content_valign center
+   {
+    TextWidgetClass modded_main_menu_autor {
+     visible 1
+     clipchildren 0
+     position 50 50
+     size 1 0.333
+     valign bottom_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     priority 2
+     text "#hrp_modded"
+     font "gui/fonts/sdf_MetronLight24"
+     "exact text" 0
+     "text valign" center
+    }
+    TextWidgetClass version {
+     visible 1
+     clipchildren 0
+     ignorepointer 1
+     position 80 60
+     size 1 0.333
+     valign bottom_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     priority 2
+     text "#main_menu_version"
+     font "gui/fonts/sdf_MetronLight24"
+     "exact text" 0
+     "text valign" center
+    }
+    TextWidgetClass copyright {
+     visible 1
+     clipchildren 0
+     position 0 0
+     size 1 0.333
+     valign bottom_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     priority 2
+     text "#copyright_disclamer"
+     font "gui/fonts/sdf_MetronLight24"
+     "exact text" 0
+     "text valign" center
+    }
+   }
+  }
+ }
+}

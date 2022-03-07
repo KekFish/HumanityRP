@@ -1,0 +1,5 @@
+//<'FS_2_ENG.pbo' properties via Mikero's dos tools, dll version 8.23>
+product=dayz ugc;
+prefix=FS_2_ENG;
+//PboType=Arma Unknown pbo type (no config or mission).;
+//</properties>
